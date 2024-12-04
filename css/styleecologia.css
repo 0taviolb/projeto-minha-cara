@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    background-color: #FFF9CE;
+  }
+  
+  /* Menu */
+  .menu {
+    background-color: #4F7B58; 
+    text-align: center;
+    padding-top: 15px;
+    height: 65px;
+    display: flex;
+  }
+  
+  .menu ul {
+    list-style: none;
+    margin-left: 300px;
+    padding: 0;
+    display: flex;
+    gap: 60px; 
+  }
+  
+  .menu li {
+    display: inline;
+  }
+  
+  .menu a { 
+    color: #A9D67B; 
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 800ms ease;
+  }
+  
+  .menu a:hover {
+    color: #7a9163; 
+  
+  }
+  
+  .logo{
+    width: 125px;
+    height: 75px;
+    margin-top: -15px;
+    margin-left: 120px;
+  } 
+  
+ .introducao{
+    color: #4F7B58;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 120px;
+    margin-right: 150px;
+    padding-top:25px;  
+  }
+
+  .titulo{
+    color: #4F7B58;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* .fundointrodução {
+  height: 180px;
+  background-color: #4F7B58;
+} */
+
+.div1{
+  height: 320px;
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.foto{
+  width: 600px;
+  margin-left: 60px;
+  height: auto;
+  margin-top: 15px;
+  border-radius: 15px;
+}
+
+.texto{
+  color: #4F7B58;
+  margin-right: 100px;
+  font-size: 20px;
+  text-align: justify;
+  margin-top: 15px;
+}
+
+.subtitulo{
+  color: #4F7B58;
+  font-size: 30px;
+  margin-left: 60px;
+  margin-bottom: -50px;
+  margin-top: 40px;
+}
+
+.divisao{
+  height:4px;
+  background: #21271b;
+}
+
+.hero {
+  text-align: center;
+  background: url(../imagens/aves111.png)no-repeat center center / cover;
+  padding: 100px 0;
+  color: #fff395;
+  font-size: 25px;
+  width: auto;
+  margin-left: 60px;
+  margin-right: 100px;
+  height: 65px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.texto3{
+  color: #4F7B58;
+  margin-right: 100px;
+  font-size: 20px;
+  text-align: justify;
+  margin-left: 60px;
+  margin-bottom: 50px;
+}
+
+footer{
+  background-color: #313030;
+  margin-top: 35px;
+  padding: 15px;
+}
+
+footer p {
+  line-height: 5px;
+  color: #fffff0;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.linha::after{
+  content: '';
+  height: 2px;
+  background-color: #4C4949;
+  display: block;
+  width: 1920; 
+}
+
+.rodape{
+  display: flex;
+  justify-content: space-between;
+}
+
+.ancora{
+  width: 120px;
+  height: auto;
+}

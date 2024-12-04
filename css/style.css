@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  background-color: #FFF9CE;
+}
+
+/* Menu */
+.menu {
+  background-color: #4F7B58; 
+  text-align: center;
+  padding-top: 15px;
+  height: 65px;
+  display: flex;
+}
+
+.menu ul {
+  list-style: none;
+  margin-left: 300px;
+  padding: 0;
+  display: flex;
+  gap: 60px; 
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu a { 
+  color: #A9D67B; 
+  font-size: 20px;
+  font-weight: bold;
+  transition: color 800ms ease;
+}
+
+.menu a:hover {
+  color: #7a9163; 
+
+}
+
+.logo{
+  width: 125px;
+  height: 75px;
+  margin-top: -15px;
+  margin-left: 120px;
+} 
+
+/*Corpo da pagina*/
+.introducao{
+  color: #4F7B58;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.div1{
+  background-color: #4F7B58;
+  height: 320px;
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.foto{
+  width: 200px;
+  margin-left: 120px;
+  height: 290px;
+  margin-top: 15px;
+  border-radius: 15px;
+}
+
+.texto{
+  color: #FFF9CE;
+  margin-right: 150px;
+  font-size: 20px;
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.div2{
+  background-color: #FFF9CE;
+  height: 320px;
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.texto2 {
+    color: #4F7B58;
+    margin-left: 120px;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.foto2{
+  width: 200px;
+  margin-right: 150px;
+  height: 290px;
+  margin-top: 15px;
+  border-radius: 15px;
+}
+
+footer{
+  background-color: #313030;
+  margin-top: 35px;
+  padding: 15px;
+}
+
+footer p {
+  line-height: 5px;
+  color: #fffff0;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.linha::after{
+  content: '';
+  height: 2px;
+  background-color: #4C4949;
+  display: block;
+  width: 1920; 
+}
+
+.rodape{
+  display: flex;
+  justify-content: space-between;
+}
+
+iframe{
+  margin-top: 40px;
+  margin-left: 400px;
+}
